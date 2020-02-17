@@ -8,5 +8,5 @@
 `sudo docker run --rm --volume $(pwd):/workspace corpoflow/phan --output-mode json --signature-compatibility --directory ./app > reports/phan/output.json`
 
 
-### Base
+### Phan
 https://github.com/phan/phan
