@@ -6,3 +6,7 @@
 
 ### Run in project root after build
 `sudo docker run --rm --volume $(pwd):/workspace corpoflow/phan --output-mode json --signature-compatibility --directory ./app > reports/phan/output.json`
+
+
+### Base
+https://github.com/phan/phan
